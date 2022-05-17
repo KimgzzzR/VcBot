@@ -1,6 +1,6 @@
-# Porter from Userge (https://github.com/UsergeTeam/Userge/
-# Ported by KennedyProject (https://github.com/KennedyProject)
-# For Vcmusic-Userbot 2021
+# U
+# R
+# GOOD
 
 import io
 import os
