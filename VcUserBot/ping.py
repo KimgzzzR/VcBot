@@ -61,25 +61,25 @@ async def restart(client, m: Message):
     quit()
 
 
-@Client.on_message(filters.command(["Good morning", "Gud morning", "gud mrng", "ഗുഡ് മോർണിംഗ്"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["Good morning", "m", "morning", "gm"], prefixes=f"{HNDLR}"))
 async def goodmorning(client, m: Message):
     GM = f"""
-<i>🍂☕️Gøød Mørning..⏱️ Have a nice day..🙂</i>
+<i>🍂☕️Morning Kids n Unkils...⏱️ Have a nice day..🙂</i>
 """
     await m.reply(GM)
 
 
-@Client.on_message(filters.command(["Good Evening", "Gud evng", "gud evening", "ഗുഡ് ഈവനിംഗ്", "ഗുഡ് ഈവെനിംഗ്"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["Good Evening", "Gud evng", "gud evening", "ge", "evening"], prefixes=f"{HNDLR}"))
 async def goodevening(client, m: Message):
     GE = f"""
-<i> 😁Gøød Evening..☕️</i>
+<i> 😁Good Evening...Unkil n Kids☕️</i>
 """
     await m.reply(GE)
 
 
-@Client.on_message(filters.command(["Good Night", "Gud nt", "gud night", "ഗുഡ് നൈറ്റ്‌", "gudnyt"], prefixes=f"{HNDLR}"))
+@Client.on_message(filters.command(["Good Night", "gn", "night", "n", "sojao"], prefixes=f"{HNDLR}"))
 async def goodnight(client, m: Message):
     GN = f"""
-<i> 😴🛌Gøød Night 🌚</i>
+<i> 😴🛌Good Night, Sojao Kids else Gamli Milegi 🌚</i>
 """
     await m.reply(GN)
