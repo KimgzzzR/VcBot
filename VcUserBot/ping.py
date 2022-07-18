@@ -80,6 +80,6 @@ async def goodevening(client, m: Message):
 @Client.on_message(filters.command(["Good Night", "gn", "night", "n", "sojao"], prefixes=f"{HNDLR}"))
 async def goodnight(client, m: Message):
     GN = f"""
-<i> 😴🛌Good Night, Sojao Kids else Gamli Milegi 🌚</i>
+<i> 😴🛌Good Night Subh Hone Na De, Sojao Kids else Gamli Milegi 🌚</i>
 """
     await m.reply(GN)
