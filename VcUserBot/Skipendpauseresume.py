@@ -19,7 +19,7 @@ async def skip(client, m: Message):
             await m.reply("**😩Empty Queue, Leaving Voice Chat**")
         else:
             await m.reply(
-                f"**⏭ Skipped** \n**🎧 Now playing** - [{op[0]}]({op[1]}) | `{op[2]}`",
+                f"**⏭ Skipped Ek Song To Chlne Do Kids** \n**🎧 Now playing** - [{op[0]}]({op[1]}) | `{op[2]}`",
                 disable_web_page_preview=True,
             )
     else:
