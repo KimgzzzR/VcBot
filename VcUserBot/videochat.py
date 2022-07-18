@@ -30,7 +30,7 @@ BrayDan = [
     "https://telegra.ph/file/d081b03640c7cb4247b17.jpg",
 ]
 
-IMAGE_THUMBNAIL = random.choice(BrayDan)
+IMAGE_THUMBNAIL = f"https://i.ytimg.com/vi/{data['id']}/hqdefault.jpg
 
 # music player
 
